@@ -79,11 +79,26 @@ export const originSources = {
   },
   "36kr": {
     name: "36氪",
-    type: "realtime",
+    // type: "realtime",
+    type: "hottest",
     color: "blue",
     // cloudflare pages cannot access
-    disable: true,
+    // disable: true,
     home: "https://36kr.com",
+    sub: {
+      quick: {
+        title: "快讯",
+      },
+    },
+  },
+  "huxiu": {
+    name: "虎嗅网",
+    // type: "realtime",
+    type: "hottest",
+    color: "blue",
+    // cloudflare pages cannot access
+    // disable: true,
+    home: "https://huxiu.com",
     sub: {
       quick: {
         title: "快讯",
