@@ -88,6 +88,12 @@ export const originSources = {
     sub: {
       quick: {
         title: "快讯",
+        type: "hottest",
+      },
+      information: {
+        title: "资讯",
+        type: "realtime",
+
       },
     },
   },
